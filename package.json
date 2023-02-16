@@ -1,0 +1,39 @@
+{
+  "name": "api-vercel-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "types": "src/server.d.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.12",
+    "npm": ">=8.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielSS187/Api-vercel-teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielSS187/Api-vercel-teste/issues"
+  },
+  "homepage": "https://github.com/GabrielSS187/Api-vercel-teste#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "tsup": "^6.6.3"
+  }
+}
